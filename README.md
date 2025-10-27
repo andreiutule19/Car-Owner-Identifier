@@ -149,17 +149,6 @@ npm start
 
 If you want, I can scan for `pom.xml`, `package.json`, or `requirements.txt` and update the README with exact commands.
 
-## Next steps and suggestions
-
-- Add explicit dependency files if missing:
-  - `microservice/requirements.txt` listing all Python packages (torch, torchvision, opencv-python, flask, etc.).
-  - `client/package.json` should already exist — ensure all scripts (start, android/ios if RN) are present.
-  - `server/pom.xml` or `server/gradle.build` — verify build commands in README.
-
-- Add a `Dockerfile` for each component for easier local deployment.
-- Add minimal integration tests for the backend controllers and for the microservice API.
-- Create a short `docs/` folder or keep this `README.md` updated with expected ports and example API requests.
-
 ## Contact & author
 
 This is a bachelor project by Iuliu Andrei Steau (project files are in this repository). For details about the thesis or to request datasets/models, open an issue or contact the author directly.
